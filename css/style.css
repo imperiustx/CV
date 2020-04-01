@@ -1,4 +1,5 @@
 body {
+    color: #40514E;
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
@@ -14,39 +15,133 @@ h1 {
 }
 
 h2 {
+    color: #66BFBF;
     font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding: 10px;
 }
 
 h3 {
+    color: #11999E;
     font-family: 'Montserrat', sans-serif;
 }
 
-.top-contaner {
+p {
+    line-height: 2;
+}
+
+hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+a {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
+.top-container {
     background-color: #E4F9F5;
     position: relative;
     padding-top: 100px;
 }
 
-.middle-contaner {
-    
+.middle-container {
+    margin: 100px 0;
 }
 
-.bottom-contaner {
-   
+.bottom-container {
+   background-color: #66BFBF;
+   padding: 50px 0 20px;
+
 }
 
 .bottom-cloud {
     position: absolute;
-    left: 300px;
+    left: 250px;
     bottom: 300px;
 }
 
 .top-cloud {
     position: absolute;
     right: 300px;
-    top: 50px;
+    top: 40px;
 }
 
 .hoang-avatar {
     border-radius: 50%;
+}
+
+.computer2-img {
+    width: 35%;
+    border-radius: 50%;
+    float: left;
+    margin-right: 30px;
+}
+
+.computer1-img {
+    width: 35%;
+    border-radius: 50%;
+    float: right;
+    margin-left: 30px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.intro {
+    width: 41%;
+    margin: auto;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.myButton {
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	background-color:#768d87;
+	border-radius:5px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+}
+
+.myButton:hover {
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	background-color:#6c7c7c;
+}
+
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
 }
