@@ -50,6 +50,11 @@ a:hover {
     color: #EAF6F6;
 }
 
+table {
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+}
+
 .top-container {
     background-color: #E4F9F5;
     position: relative;
@@ -80,18 +85,17 @@ a:hover {
 
 .hoang-avatar {
     border-radius: 50%;
+    width: 200px;
 }
 
 .computer2-img {
-    width: 25%;
-    border-radius: 50%;
+    width: 40%;
     float: left;
     margin-right: 30px;
 }
 
 .computer1-img {
-    width: 25%;
-    border-radius: 50%;
+    width: 40%;
     float: right;
     margin-left: 30px;
 }
@@ -111,6 +115,11 @@ a:hover {
 .contact-message {
     width: 40%;
     margin: 40px auto 60px;
+}
+
+.working {
+    width: 40%;
+    margin: 50px auto 50px;
 }
 
 .myButton {
